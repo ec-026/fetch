@@ -1,5 +1,3 @@
-Sure! Here's a draft of a `README.md` file that explains your `App.js` code:
-
 # Employee Directory
 
 This React app displays employee data from a JSON file. Users can search for employees by name and filter them by designation and skills.
