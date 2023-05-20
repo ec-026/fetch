@@ -83,9 +83,9 @@ const App = () => {
  <div key={project.name}>
  <p>Project Name: {project.name}</p>
  <p>Description: {project.description}</p>
+ <p>Team:</p>
  {project.team && (
  <div className="team">
- <p>Team:</p>
  {project.team.map(member => (
  <div key={member.name}>
  <p>Name: {member.name || ''}</p>
